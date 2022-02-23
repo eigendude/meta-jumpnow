@@ -14,4 +14,4 @@ do_install() {
     install -m 755 serialecho ${D}${bindir}
 }
 
-FILES_${PN} = "${bindir}"
+FILES:${PN} = "${bindir}"
